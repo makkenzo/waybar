@@ -1,0 +1,32 @@
+{
+    "layer": "top",
+    "margin-top": 0,
+    "margin-bottom": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "spacing": 0,
+    "include": [
+        "~/.config/ml4w/settings/waybar-quicklinks.json",
+        "~/.config/waybar/modules.json"
+    ],
+    "modules-left": [
+        "group/settings",
+        "custom/updates",
+		"battery",
+        "hyprland/workspaces"
+        // "custom/empty"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "bluetooth",
+
+        "network",
+        "group/hardware",
+        "tray",
+        "custom/ml4w-welcome",
+        "clock"
+    ]
+}
