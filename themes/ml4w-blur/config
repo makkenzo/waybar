@@ -10,11 +10,11 @@
         "~/.config/waybar/modules.json"
     ],
     "modules-left": [
+        //"custom/appmenu",
         "group/settings",
         "custom/updates",
-		"battery",
+        "battery",
         "hyprland/workspaces"
-        // "custom/empty"
     ],
     "modules-center": [
         "hyprland/window"
@@ -22,7 +22,6 @@
     "modules-right": [
         "pulseaudio",
         "bluetooth",
-
         "network",
         "group/hardware",
         "tray",
