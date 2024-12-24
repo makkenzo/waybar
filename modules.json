@@ -78,12 +78,12 @@
         "on-click": "sleep 0.1 && ~/.config/ml4w/scripts/cliphist.sh",
         "on-click-right": "sleep 0.1 && ~/.config/ml4w/scripts/cliphist.sh d",
         "on-click-middle": "sleep 0.1 && ~/.config/ml4w/scripts/cliphist.sh w",
-        "tooltip-format": "Clipboard Manager"
+        "tooltip-format": "Left: Open clipboard Manager\nRight: Delete an entry\nMiddle: Clear list"
     },
 
     // Updates Count
     "custom/updates": {
-        "format": "  {}",
+        "format": "  {}",
         "escape": true,
         "return-type": "json",
         "exec": "~/.config/ml4w/scripts/updates.sh",
@@ -208,6 +208,7 @@
     "clock": {
         "format": "{:%H:%M %a %Od}",
         "on-click": "ags toggle calendar",
+        "timezone": "",
         "tooltip": false
     },
 
@@ -244,12 +245,7 @@
     // Group Hardware
     "group/hardware": {
         "orientation": "inherit",
-        "drawer": {
-            "transition-duration": 300,
-            "children-class": "not-memory",
-            "transition-left-to-right": false
-        },
-        "modules": ["custom/system", "disk", "cpu", "memory", "hyprland/language"]
+        "modules": ["disk", "cpu", "memory", "hyprland/language"]
     },
 
     // Group Tools
@@ -283,9 +279,9 @@
     // Network
     "network": {
         "format": "{ifname}",
-        "format-wifi": "   {signalStrength}%",
+        "format-wifi": " {essid} ({signalStrength}%)",
         "format-ethernet": "  {ifname}",
-        "format-disconnected": "Disconnected",
+        "format-disconnected": "Disconnected ⚠",
         "tooltip-format": " {ifname} via {gwaddri}",
         "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
         "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
