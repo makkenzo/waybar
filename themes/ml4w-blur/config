@@ -28,7 +28,8 @@
 		"group/settings",
 		"custom/updates",
 		"battery", 
-		"hyprland/workspaces"
+		"hyprland/workspaces",
+		"custom/notification"
     ],
 	
     // Modules Center

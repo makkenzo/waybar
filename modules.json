@@ -48,6 +48,7 @@
             "(.*) - Chromium": "$1",
             "(.*) - Brave Search": "$1",
             "(.*) - Outlook": "$1",
+            "(.*) Mozilla Firefox": "$1 ;)",
             "(.*) Microsoft Teams": "$1"
         },
         "separate-outputs": true
@@ -59,6 +60,13 @@
         "on-click-right": "sleep 0.1 && com.ml4w.welcome",
         "format": " ",
         "tooltip-format": "Open Sidebar"
+    },
+
+    "custom/notification": {
+        "tooltip": false,
+        "format": "",
+        "on-click": "swaync-client -t -sw",
+        "escape": true
     },
 
     // Empty
