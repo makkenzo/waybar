@@ -29,7 +29,7 @@
 //"custom/appmenu",
         "group/links",
 //"wlr/taskbar",
-        "group/quicklinks",
+        //"group/quicklinks",
 "hyprland/window",
         "custom/empty"
     ],
@@ -49,10 +49,10 @@
         "network",
         "group/hardware",
         "group/tools",
-        //"tray",
+        "tray",
         "custom/notification",
         "custom/exit",
-        "custom/ml4w-welcome",
+//        "custom/ml4w-welcome",
         "clock"
     ]
 }

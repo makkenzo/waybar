@@ -48,7 +48,7 @@
         "network",
         "group/hardware",
         "custom/notification",
-        "custom/exit",
+		"tray",
         "custom/ml4w-welcome",
         "clock"
     ]
