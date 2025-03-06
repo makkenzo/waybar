@@ -29,9 +29,8 @@
         "hyprland/workspaces",
         "group/links",
 		"battery", 
+        "power-profiles-daemon",
 		"custom/updates",
-//"wlr/taskbar",
-        //"group/quicklinks",
         "custom/empty"
     ],
 
@@ -45,8 +44,8 @@
     "modules-right": [
         "pulseaudio",
         "bluetooth",
-        "network",
-        "group/hardware",
+"network",
+                "group/hardware",
         "custom/notification",
 		"tray",
         "custom/ml4w-welcome",

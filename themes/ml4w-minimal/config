@@ -59,7 +59,7 @@
 //"custom/appmenuicon",
         "hyprland/workspaces",
         "group/links",
-        //"group/quicklinks",
+        "group/quicklinks",
         "custom/empty"
     ],
 
@@ -75,13 +75,14 @@
         "pulseaudio",
 //"backlight",
         "bluetooth",
+"network",
         "battery", 
-        "network",
+        "power-profiles-daemon",
         "group/hardware",
         "group/tools",
         "custom/exit",
         "clock",
-        "tray",
+"tray",
         "custom/notification",
         "custom/ml4w-welcome"
     ]
