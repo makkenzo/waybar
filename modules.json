@@ -393,5 +393,9 @@
         "format": "{icon} {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
         "scroll-step": 1
+    },
+
+    "custom/lrcsnc": {
+        "exec": "lrcsnc"
     }
 }

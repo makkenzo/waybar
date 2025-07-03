@@ -19,7 +19,7 @@
         "custom/empty"
     ],
     "modules-center": [
-        "hyprland/window",
+        "custom/lrcsnc",
         "custom/empty"
     ],
     "modules-right": [
