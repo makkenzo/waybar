@@ -13,6 +13,7 @@
         "hyprland/workspaces",
         "group/links",
         "battery",
+        "bluetooth",
         "custom/notification",
         "tray",
         "custom/updates",
@@ -24,7 +25,6 @@
     ],
     "modules-right": [
         "pulseaudio",
-        "bluetooth",
         "network",
         "power-profiles-daemon",
         "group/hardware",

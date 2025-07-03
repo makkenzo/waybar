@@ -309,7 +309,7 @@
     // Network
     "network": {
         "format": "{ifname}",
-        "format-wifi": " {essid} ({signalStrength}%)",
+        "format-wifi": " {essid}",
         "format-ethernet": "  {ifname}",
         "format-disconnected": "Disconnected ⚠",
         "tooltip-format": " {ifname} via {gwaddri}",
@@ -373,7 +373,7 @@
 
     // Bluetooth
     "bluetooth": {
-        "format": " {status}",
+        "format": "",
         "format-disabled": "",
         "format-off": "",
         "interval": 30,
@@ -396,6 +396,6 @@
     },
 
     "custom/lrcsnc": {
-        "exec": "lrcsnc"
+        "exec": "lrcsnc -c ~/lrcsnc.toml"
     }
 }
